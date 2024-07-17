@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "FakeSpeed",
+    "description": "Fake Google PageSpeed metrics.",
+    "version": "1.0",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "icons": {
+        "128": "icon128.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://pagespeed.web.dev/*"
+            ],
+            "js": [
+                "script.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_icon": {
+            "128": "icon128.png"
+        }
+    }
+}
