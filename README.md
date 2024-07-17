@@ -12,6 +12,5 @@ Google Chrome extension to modify elements on the PageSpeed Insights website (ht
 4. Click on **Load unpacked** and select the folder containing this extension.
 
 ### Usage
-Open Google Chrome and navigate to the PageSpeed Insights page you wish to modify.
-
-After the analysis is complete, locate and click on the extension icon in the Chrome toolbar.
+- Open Google Chrome and navigate to the PageSpeed Insights page you wish to modify.
+- After the analysis is complete, locate and click on the extension icon in the Chrome toolbar.
